@@ -27,8 +27,8 @@ def write(num, folder):
 def ans(num, folder):
     path = "/Users/colin.lum/Desktop/testfolder"
     name = f"out{num}" + '.txt'
+    
     try:
-
         inp = open(f"/Users/colin.lum/Desktop/{folder}/in{num}.txt", 'r')
         # a = solve()
         inp.close()
@@ -37,12 +37,11 @@ def ans(num, folder):
         # out.write(a)
         out.write('\n')
         out.close()
-
     except:
         print('Error')
         sys.exit(0)
 
-
+        
 folderName = input('What do you want the name of your folder to be? ')
 Number = int(input('How many test cases do you want? '))
 
