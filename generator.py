@@ -20,7 +20,7 @@ def write(num, folder):
         file.write('\n')
         file.close()
     except:
-        print('Something went wrong! Cannot tell what?')
+        print('Error')
         sys.exit(0)
 
 
@@ -39,7 +39,7 @@ def ans(num, folder):
         out.close()
 
     except:
-        print('Something went wrong! Cannot tell what?')
+        print('Error')
         sys.exit(0)
 
 
