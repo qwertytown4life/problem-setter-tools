@@ -25,7 +25,7 @@ def write(num, folder):
 
 
 def ans(num, folder):
-    path = "/Users/colin.lum/Desktop/testfolder"
+    path = f"/Users/colin.lum/Desktop/{folder}"
     name = f"out{num}" + '.txt'
     
     try:
